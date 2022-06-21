@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    text-align: right;
+
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a#tres {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin-top: 25px ;
+}
+
+nav a#tres:hover {
+    background-color: white;
+    color: blue;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+div.bv {
+    background-image: url(img/quarto1.jpg);
+    background-size: 100%;
+    padding: 200px;
+    margin: -8px;
+}
+
+div.bv h1 {
+    font-size: 5.0em;
+    max-width: 700px;
+    margin-left: 250px;
+    font-weight: initial;
+}
+
+div.bv p {
+    font-size: 1.4em;
+    max-width: 700px;
+    margin-left: 250px;
+    margin-top: -30px;
+}
+
+div.bv button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 0.7em;
+    font-weight: bold;
+    background-color: rgb(61, 61, 129);
+    color: white;
+}
+
+div.bv button:hover {
+    background-color: white;
+    color: blue;
+    border-style: solid;
+}
+
+div.hotel ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    text-align: center;
+}
+
+div.hotel ul li p {
+    text-align: justify;
+    width: 300px;
+    text-indent: 10px;
+}
+
+div.rest {
+    background-image: url(img/restaurante.jpg);
+    background-size: 100%;
+    padding: 150px;
+    margin: -8px;
+}
+
+div.rest h2 {
+    font-size: 2.5em;
+    font-style: italic;
+    padding-left: 200px;
+}
+
+div.rest p {
+    font-size: 1.3em;
+    width: 800px;
+    padding-left: 200px;
+}
+
+div.rest button {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+div.rest button:hover {
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    border-color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: rgb(60, 60, 145);
+    padding-bottom: 90px;
+    margin: -8px;
+    color: white;
+}
+
+footer h3 {
+    padding-left: 400px;
+    padding-top: 40px;
+}
+
+footer p {
+    padding-left: 400px;
+}
+
+footer picture {
+    padding-left: 1200px;
+    position: absolute;
+	left: 0%;
+	top: 266%;
+	
+}
+
+p.rodape {
+    padding-left: 1200px;
+    position: absolute;
+	left: 0%;
+	top: 269%;
+}
+
